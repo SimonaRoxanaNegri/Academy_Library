@@ -12,5 +12,15 @@ Gli utenti utilizzatori sono in grado di accedere a una lista di libri disponibi
 
 Agli amministratori dell’applicazione è permesso tutto ciò che è permesso agli utilizzatori, con in più la possibilità di manipolare la banca dati, aggiungendo libri alla stessa, rimuovendone (a patto che non siano in prestito)
 o modificandone i dettagli. 
+ 
+Le funzionalità necessarie al corretto funzionamento del sistema, e dunque implementate a livello di Business Logic, sono le seguenti: 
 
+Login
+Inserimento di un libro 
+Modifica di un libro
+Cancellazione di un libro 
+Ricerca di un libro  
+Prestito di un libro 
+Restituzione del libro 
+Uscita dall’applicativo 
 

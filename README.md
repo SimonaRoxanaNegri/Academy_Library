@@ -1,6 +1,6 @@
 # Library
 
-Software gestionale per una biblioteca realizzato nell'Academy CRM tramite Avanade Italy srl. In questo progetto è stato ulizzato: 
+Software gestionale per una biblioteca realizzato nell'Academy CRM tramite Avanade Italy srl. In questo progetto è stato utilizzato: 
 - c#, 
 - html, 
 - css, 

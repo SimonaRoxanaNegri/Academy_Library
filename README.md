@@ -15,19 +15,20 @@ o modificandone i dettagli.
  
 Le funzionalità necessarie al corretto funzionamento del sistema, e dunque implementate a livello di Business Logic, sono le seguenti: 
 
-Login
 
-Inserimento di un libro 
+- Login
 
-Modifica di un libro
+- Inserimento di un libro 
 
-Cancellazione di un libro 
+- Modifica di un libro
 
-Ricerca di un libro  
+- Cancellazione di un libro 
 
-Prestito di un libro 
+- Ricerca di un libro  
 
-Restituzione del libro 
+- Prestito di un libro 
+
+- Restituzione del libro 
 
 Uscita dall’applicativo 
 

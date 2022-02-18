@@ -1,7 +1,8 @@
 # Academy_Library
 
-Progetto interamente realizzato con l'utilizzo di c#, html, css, bootstrap, e MSS (Microsoft SQL Server) che è stato sviluppato con l'obbiettivo di realizzare un 
-applicativo per una biblioteca. 
+Progetto Academy con Avanade Italy interamente realizzato con le seguenti tecnologie: c#, html, css, bootstrap, jquery, MSS (DBMS - Microsoft SQL Server) e web service per la comunicazione tra diversi sistemi, perché inizialmente l'applicazione è stata creata come console application per poi riutilizzare tramite le api le business logics utilizzate nella nuova applicazione MVC.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Software gestionale per una biblioteca. 
 
@@ -11,4 +12,5 @@ Gli utenti utilizzatori sono in grado di accedere a una lista di libri disponibi
 
 Agli amministratori dell’applicazione è permesso tutto ciò che è permesso agli utilizzatori, con in più la possibilità di manipolare la banca dati, aggiungendo libri alla stessa, rimuovendone (a patto che non siano in prestito)
 o modificandone i dettagli. 
+
 

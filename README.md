@@ -30,5 +30,5 @@ Le funzionalità necessarie al corretto funzionamento del sistema, e dunque impl
 
 - Restituzione del libro 
 
-Uscita dall’applicativo 
+- Uscita dall’applicativo 
 

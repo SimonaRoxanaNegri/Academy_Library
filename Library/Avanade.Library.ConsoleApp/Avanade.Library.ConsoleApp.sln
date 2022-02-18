@@ -1,0 +1,117 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.Library.ConsoleApp", "Avanade.Library.ConsoleApp.csproj", "{A71F3FCE-3012-4797-AD14-381D2CF8318A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.Library.BusinessLogic", "..\Avanade.Library.BusinessLogic\Avanade.Library.BusinessLogic.csproj", "{6B0B8BA1-E391-4134-BB34-2A2B08BC0BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.Library.Entities", "..\Avanade.Library.Entities\Avanade.Library.Entities.csproj", "{22FCF2B8-68C0-421D-B6C7-3479F551DF43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.Library.DAL", "..\Avanade.Library.DAL\Avanade.Library.DAL.csproj", "{09AFDBD5-8813-483D-A17F-62B49CC02F49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E70A95AB-96D4-422D-9986-62E3A45E9EAE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Wcf_Service", "..\Wcf_Service\", "{232232B7-9775-4652-A4C7-D8DB99F24479}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{6b0b8ba1-e391-4134-bb34-2a2b08bc0bcc}|Avanade.Library.BusinessLogic.dll;{09AFDBD5-8813-483D-A17F-62B49CC02F49}|Avanade.Library.DAL.dll;{22FCF2B8-68C0-421D-B6C7-3479F551DF43}|Avanade.Library.Entities.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59059"
+		Debug.AspNetCompiler.PhysicalPath = "..\Wcf_Service\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59059\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59059"
+		Release.AspNetCompiler.PhysicalPath = "..\Wcf_Service\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59059\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59059"
+		SlnRelativePath = "..\Wcf_Service\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.Library.Proxy", "..\ClassLibrary1\Avanade.Library.Proxy.csproj", "{999289E0-9905-45CD-8DFC-10101C9312F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserProxy.Tests", "..\UserProxy.Tests\UserProxy.Tests.csproj", "{FB2D1CAB-2330-4D3C-A9AF-BFE4D4A6DA0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookProxy.Tests", "..\BookProxy.Tests\BookProxy.Tests.csproj", "{4223BE79-AFDB-45B7-AB64-00DD9A42EE62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLibrary", "..\WebLibrary\WebLibrary.csproj", "{1BD768C3-8D29-410E-B06C-A0F5CF59405A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_Library", "..\WebApi_Library\WebApi_Library.csproj", "{F7733866-A4E3-42D6-B9A2-A2150EFD795D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationProxy.Tests", "..\ReservationProxy.Tests\ReservationProxy.Tests.csproj", "{CA5E3D69-E280-4895-8FB1-BAA62676C4A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic_Test", "..\BusinessLogic_Test\BusinessLogic_Test.csproj", "{FBB6FEF1-D4F2-4FF4-91FE-D8AF432DADAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A71F3FCE-3012-4797-AD14-381D2CF8318A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71F3FCE-3012-4797-AD14-381D2CF8318A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71F3FCE-3012-4797-AD14-381D2CF8318A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71F3FCE-3012-4797-AD14-381D2CF8318A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0B8BA1-E391-4134-BB34-2A2B08BC0BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0B8BA1-E391-4134-BB34-2A2B08BC0BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0B8BA1-E391-4134-BB34-2A2B08BC0BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0B8BA1-E391-4134-BB34-2A2B08BC0BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FCF2B8-68C0-421D-B6C7-3479F551DF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FCF2B8-68C0-421D-B6C7-3479F551DF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FCF2B8-68C0-421D-B6C7-3479F551DF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FCF2B8-68C0-421D-B6C7-3479F551DF43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09AFDBD5-8813-483D-A17F-62B49CC02F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AFDBD5-8813-483D-A17F-62B49CC02F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AFDBD5-8813-483D-A17F-62B49CC02F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AFDBD5-8813-483D-A17F-62B49CC02F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{232232B7-9775-4652-A4C7-D8DB99F24479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232232B7-9775-4652-A4C7-D8DB99F24479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232232B7-9775-4652-A4C7-D8DB99F24479}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{232232B7-9775-4652-A4C7-D8DB99F24479}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{999289E0-9905-45CD-8DFC-10101C9312F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999289E0-9905-45CD-8DFC-10101C9312F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999289E0-9905-45CD-8DFC-10101C9312F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999289E0-9905-45CD-8DFC-10101C9312F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB2D1CAB-2330-4D3C-A9AF-BFE4D4A6DA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2D1CAB-2330-4D3C-A9AF-BFE4D4A6DA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2D1CAB-2330-4D3C-A9AF-BFE4D4A6DA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2D1CAB-2330-4D3C-A9AF-BFE4D4A6DA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4223BE79-AFDB-45B7-AB64-00DD9A42EE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4223BE79-AFDB-45B7-AB64-00DD9A42EE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4223BE79-AFDB-45B7-AB64-00DD9A42EE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4223BE79-AFDB-45B7-AB64-00DD9A42EE62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD768C3-8D29-410E-B06C-A0F5CF59405A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD768C3-8D29-410E-B06C-A0F5CF59405A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD768C3-8D29-410E-B06C-A0F5CF59405A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD768C3-8D29-410E-B06C-A0F5CF59405A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7733866-A4E3-42D6-B9A2-A2150EFD795D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7733866-A4E3-42D6-B9A2-A2150EFD795D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7733866-A4E3-42D6-B9A2-A2150EFD795D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7733866-A4E3-42D6-B9A2-A2150EFD795D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5E3D69-E280-4895-8FB1-BAA62676C4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5E3D69-E280-4895-8FB1-BAA62676C4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5E3D69-E280-4895-8FB1-BAA62676C4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5E3D69-E280-4895-8FB1-BAA62676C4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB6FEF1-D4F2-4FF4-91FE-D8AF432DADAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB6FEF1-D4F2-4FF4-91FE-D8AF432DADAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB6FEF1-D4F2-4FF4-91FE-D8AF432DADAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB6FEF1-D4F2-4FF4-91FE-D8AF432DADAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9E4756E-2430-4126-86A6-D7DDC98C27A2}
+	EndGlobalSection
+EndGlobal

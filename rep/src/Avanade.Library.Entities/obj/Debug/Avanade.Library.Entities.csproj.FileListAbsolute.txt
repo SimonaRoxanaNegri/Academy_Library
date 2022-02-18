@@ -1,0 +1,6 @@
+C:\AcademyCRM\rep\src\Avanade.Library.Entities\bin\Debug\Avanade.Library.Entities.dll
+C:\AcademyCRM\rep\src\Avanade.Library.Entities\bin\Debug\Avanade.Library.Entities.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.Entities\obj\Debug\Avanade.Library.Entities.csproj.AssemblyReference.cache
+C:\AcademyCRM\rep\src\Avanade.Library.Entities\obj\Debug\Avanade.Library.Entities.csproj.CoreCompileInputs.cache
+C:\AcademyCRM\rep\src\Avanade.Library.Entities\obj\Debug\Avanade.Library.Entities.dll
+C:\AcademyCRM\rep\src\Avanade.Library.Entities\obj\Debug\Avanade.Library.Entities.pdb

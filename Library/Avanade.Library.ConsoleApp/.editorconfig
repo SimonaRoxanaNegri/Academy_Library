@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# S2737: "catch" clauses should do more than rethrow
+dotnet_diagnostic.S2737.severity = none
+
+# Default severity for all analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = silent
+
+# Default severity for analyzer diagnostics with category 'Minor Code Smell'
+dotnet_analyzer_diagnostic.category-Minor Code Smell.severity = none

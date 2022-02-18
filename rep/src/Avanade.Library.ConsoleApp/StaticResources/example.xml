@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library>
+  <Users>
+    <User UserId="1" Role="Admin" Username="administrator" Password="admin1"></User>
+    <User UserId="2" Role="User" Username="bob" Password="userBob"></User>
+    <User UserId="3" Role="User" Username="alice" Password="userAlice"></User>
+  </Users>
+  <Books>
+    <Book BookId="1" Title="Il ritratto di Dorian Grey" AuthorName="Oscar" AuthorSurname="Wilde" Publisher="Mondadori" Quantity="2"></Book>
+    <Book BookId="2" Title="Piccole Donne" AuthorName="Richard" AuthorSurname="Bonny" Publisher="Mondadori" Quantity="3"></Book>
+    <Book BookId="3" Title="Il signore degli anelli" AuthorName="J.R." AuthorSurname="Tolkien" Publisher="Mondadori" Quantity="2" />
+    <Book BookId="4" Title="Le avventure di Narnia" AuthorName="Jhonny" AuthorSurname="Deep" Publisher="Feltrinelli" Quantity="4" />
+    <Book BookId="5" Title="Anna dai capelli blu" AuthorName="Elisa" AuthorSurname="Bettarini" Publisher="La campagnola" Quantity="3" />
+    <Book BookId="6" Title="D'Artagnan e i tre moschettieri" AuthorName="D'Artagnan" AuthorSurname="L'impavido" Publisher="La Corte" Quantity="2" />
+  </Books>
+  <Reservations>
+    <Reservation ReservationId="4" BookId="4" UserId="2" StartDate="09/11/2021" EndDate="09/12/2021" />
+    <Reservation ReservationId="5" BookId="6" UserId="1" StartDate="11/11/2021" EndDate="11/12/2021" />
+    <Reservation ReservationId="6" BookId="2" UserId="1" StartDate="27/01/2022" EndDate="26/02/2022" />
+  </Reservations>
+</Library>

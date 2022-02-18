@@ -1,0 +1,9 @@
+C:\AcademyCRM\rep\src\Avanade.Library.DAL\bin\Debug\Avanade.Library.DAL.dll
+C:\AcademyCRM\rep\src\Avanade.Library.DAL\bin\Debug\Avanade.Library.DAL.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.DAL\bin\Debug\Avanade.Library.Entities.dll
+C:\AcademyCRM\rep\src\Avanade.Library.DAL\bin\Debug\Avanade.Library.Entities.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.DAL\obj\Debug\Avanade.Library.DAL.csproj.AssemblyReference.cache
+C:\AcademyCRM\rep\src\Avanade.Library.DAL\obj\Debug\Avanade.Library.DAL.csproj.CoreCompileInputs.cache
+C:\AcademyCRM\rep\src\Avanade.Library.DAL\obj\Debug\Avanade.Library.DAL.dll
+C:\AcademyCRM\rep\src\Avanade.Library.DAL\obj\Debug\Avanade.Library.DAL.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.DAL\obj\Debug\Avanade.Library.DAL.csproj.CopyComplete

@@ -1,0 +1,140 @@
+﻿@model IEnumerable<Avanade.Library.Entities.BooksAvailables>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+    @*@Html.ActionLink("Books Availables","BooksAvailables", "Book", new {}, new { @id = "#buttonOnClick" })*@
+    <button type="button" id="buttonOnClick1" onclick="notReservedBooks()" class="btn btn-link">Show Availables</button>
+    <button type="button" id="buttonOnClick2" onclick="allBooks()" class="btn btn-link">Show All</button>
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BookId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AuthorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AuthorSurName)
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.BookId)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Title)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.AuthorName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.AuthorSurName)
+    </td>
+
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.BookId }) |
+        @Html.ActionLink("Details", "Details", new { id = item.BookId }) |
+
+
+        <button type="button" data-id="@item.BookId" class="btn btn-link" onclick="deleteCallback(this)" id=@("buttonId_" + item.BookId.ToString())>Delete</button>
+
+
+        <div class="modal fade delete" id="@("ModalId_" + item.BookId.ToString())" role="dialog">
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Delete</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Are you sure to want to delete this book?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                        @*@Html.ActionLink("Yes", "Delete", "Book", new { id = item.BookId }, new { @class = "btn btn-default" })*@
+                        <button type="button" id="delete_@item.BookId" onclick="confirmDelete();" class="btn btn-default delete">Yes</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        @*<button type="button" class="btn btn-link openmodal" id="myBtn">Delete</button>*@
+        @*@Html.ActionLink("Delete", "Delete", new { id = item.BookId })*@
+    </td>
+</tr>
+    }
+</table>
+
+
+<script>
+
+    var idBook;
+    var deleteCallback = function (ev) {
+        var currentElement = $(ev);
+        currentElement.next().modal('show');
+        idBook = currentElement.attr("data-id");
+    }
+
+    function confirmDelete() {
+
+        $("#ModalId_" + idBook).modal('hide');
+        $.post('/Book/Delete', { id: idBook }, function (res) {
+            if (res != "")
+                alert(res);
+        })
+            .done(function (res) {
+               
+                $(".table").html(res);
+                $(".modal-backdrop").each(function (i) {
+                    $(this).remove();
+                });
+            })
+            .fail(function () {
+                alert("error");
+            });
+    };
+
+
+    function notReservedBooks() {
+
+        $.ajax({
+            url: "/Book/BooksAvailables",
+            type: "GET",
+            success: function (result) {
+                $(".table").html(result);
+            },
+            error: function (xhr) {
+                alert('Request Status: ' + xhr.status + ' Status Text: ' + xhr.statusText + ' ' + xhr.responseText);
+            }
+        });
+
+    }
+
+    function allBooks() {
+
+        $.ajax({
+            url: "/Book/Index",
+            type: "GET",
+            success: function (result) {
+
+                $(".table").html(result);
+
+            },
+            error: function (xhr) {
+                alert('Request Status: ' + xhr.status + ' Status Text: ' + xhr.statusText + ' ' + xhr.responseText);
+            }
+        });
+
+    }
+ 
+</script>

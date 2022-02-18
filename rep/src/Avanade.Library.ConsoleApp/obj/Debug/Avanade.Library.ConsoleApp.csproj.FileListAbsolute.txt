@@ -1,0 +1,14 @@
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\obj\Debug\Avanade.Library.ConsoleApp.csproj.AssemblyReference.cache
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\obj\Debug\Avanade.Library.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\bin\Debug\Avanade.Library.ConsoleApp.exe.config
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\bin\Debug\Avanade.Library.ConsoleApp.exe
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\bin\Debug\Avanade.Library.ConsoleApp.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\bin\Debug\Avanade.Library.BusinessLogic.dll
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\bin\Debug\Avanade.Library.Entities.dll
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\bin\Debug\Avanade.Library.DAL.dll
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\bin\Debug\Avanade.Library.BusinessLogic.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\bin\Debug\Avanade.Library.Entities.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\bin\Debug\Avanade.Library.DAL.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\obj\Debug\Avanade.Library.ConsoleApp.exe
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\obj\Debug\Avanade.Library.ConsoleApp.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.ConsoleApp\obj\Debug\Avanade.Library.ConsoleApp.csproj.CopyComplete

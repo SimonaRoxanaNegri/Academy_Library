@@ -1,0 +1,62 @@
+﻿@model Avanade.Library.Entities.BooksAvailables
+
+
+<h2>Details</h2>
+
+<div>
+    <h4>BooksAvailables</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BookId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BookId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AuthorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AuthorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AuthorSurName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AuthorSurName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PublishingHouse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PublishingHouse)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,11 @@
+C:\AcademyCRM\rep\src\Avanade.Library.BusinessLogic\obj\Debug\Avanade.Library.BusinessLogic.csproj.AssemblyReference.cache
+C:\AcademyCRM\rep\src\Avanade.Library.BusinessLogic\obj\Debug\Avanade.Library.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\AcademyCRM\rep\src\Avanade.Library.BusinessLogic\bin\Debug\Avanade.Library.BusinessLogic.dll
+C:\AcademyCRM\rep\src\Avanade.Library.BusinessLogic\bin\Debug\Avanade.Library.BusinessLogic.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.BusinessLogic\bin\Debug\Avanade.Library.DAL.dll
+C:\AcademyCRM\rep\src\Avanade.Library.BusinessLogic\bin\Debug\Avanade.Library.Entities.dll
+C:\AcademyCRM\rep\src\Avanade.Library.BusinessLogic\bin\Debug\Avanade.Library.DAL.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.BusinessLogic\bin\Debug\Avanade.Library.Entities.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.BusinessLogic\obj\Debug\Avanade.Library.BusinessLogic.dll
+C:\AcademyCRM\rep\src\Avanade.Library.BusinessLogic\obj\Debug\Avanade.Library.BusinessLogic.pdb
+C:\AcademyCRM\rep\src\Avanade.Library.BusinessLogic\obj\Debug\Avanade.Library.BusinessLogic.csproj.CopyComplete
